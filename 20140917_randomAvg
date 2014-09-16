@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Test Project</title>
+		
+		<script type="text/javascript">
+			var numArr = [];
+			var sum = 0;
+
+			for(var i =0;i<10;i++){
+				numArr[i] = Math.floor((Math.random() * 100) + 1);
+				sum += numArr[i];
+			}
+
+			console.log("총합은 " +  sum +"이고 평균은 " + sum/10 + "입니다." );
+		</script>
+	</head>
+	<body>
+		<h1>Hello World</h1>
+	</body>
+</html>
